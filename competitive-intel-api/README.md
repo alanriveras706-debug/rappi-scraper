@@ -1,4 +1,4 @@
-# Competitive Intelligence — API Only
+# Competitive Intelligence 
 
 Scraper de precios y condiciones de entrega para **Rappi**, **Uber Eats** y **DiDi Food** en México.  
 Recolecta precios, delivery fees, ETAs y promociones de McDonald's usando exclusivamente **HTTP/APIs** — sin Selenium, sin Playwright, sin HTML parsing.
