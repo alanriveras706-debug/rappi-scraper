@@ -1,0 +1,226 @@
+timestamp,platform,address_id,address,zone,lat,lng,product,price,available,delivery_fee,service_fee,eta_min,promotions,total_cost
+2026-04-05T22:44:32.027677,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Big Mac,121.16,True,22.29,4.95,31.0,,148.39999999999998
+2026-04-05T22:44:42.965552,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Coca-Cola 500ml,40.52,True,22.29,4.95,31.0,,67.76
+2026-04-05T22:44:53.857440,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Combo Mediano,158.97,True,22.29,4.95,31.0,,186.20999999999998
+2026-04-05T22:44:53.859443,rappi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Big Mac,119.59,True,17.92,4.95,26.0,15% de descuento en combos,142.45999999999998
+2026-04-05T22:44:53.861443,rappi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Coca-Cola 500ml,42.14,True,17.92,4.95,26.0,15% de descuento en combos,65.01
+2026-04-05T22:44:53.863442,rappi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Combo Mediano,165.3,True,17.92,4.95,26.0,15% de descuento en combos,188.17000000000002
+2026-04-05T22:44:53.865448,rappi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Big Mac,115.19,True,19.34,4.95,22.0,,139.48
+2026-04-05T22:44:53.868441,rappi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Coca-Cola 500ml,42.56,True,19.34,4.95,22.0,,66.85000000000001
+2026-04-05T22:44:53.870441,rappi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Combo Mediano,159.26,True,19.34,4.95,22.0,,183.54999999999998
+2026-04-05T22:44:53.872446,rappi,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Big Mac,120.54,True,20.97,4.95,33.0,,146.45999999999998
+2026-04-05T22:44:53.874441,rappi,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Coca-Cola 500ml,42.56,True,20.97,4.95,33.0,,68.48
+2026-04-05T22:44:53.877443,rappi,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Combo Mediano,160.22,True,20.97,4.95,33.0,,186.14
+2026-04-05T22:44:53.879446,rappi,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Big Mac,119.89,True,20.87,4.95,25.0,15% de descuento en combos,145.70999999999998
+2026-04-05T22:44:53.882444,rappi,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Coca-Cola 500ml,43.33,True,20.87,4.95,25.0,15% de descuento en combos,69.15
+2026-04-05T22:44:53.884443,rappi,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Combo Mediano,159.05,True,20.87,4.95,25.0,15% de descuento en combos,184.87
+2026-04-05T22:44:53.885446,rappi,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Big Mac,114.32,True,25.1,4.95,33.0,,144.36999999999998
+2026-04-05T22:44:53.887445,rappi,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Coca-Cola 500ml,40.44,True,25.1,4.95,33.0,,70.49
+2026-04-05T22:44:53.889446,rappi,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Combo Mediano,150.15,True,25.1,4.95,33.0,,180.2
+2026-04-05T22:44:53.892445,rappi,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Big Mac,109.86,True,26.55,4.95,30.0,20% off con RappiPay,141.35999999999999
+2026-04-05T22:44:53.893443,rappi,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Coca-Cola 500ml,39.15,True,26.55,4.95,30.0,20% off con RappiPay,70.65
+2026-04-05T22:44:53.895442,rappi,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Combo Mediano,151.25,True,26.55,4.95,30.0,20% off con RappiPay,182.75
+2026-04-05T22:44:53.897445,rappi,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Big Mac,114.23,True,,,,,114.23
+2026-04-05T22:44:53.899445,rappi,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Coca-Cola 500ml,40.48,True,,,,,40.48
+2026-04-05T22:44:53.901445,rappi,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Combo Mediano,150.74,True,,,,,150.74
+2026-04-05T22:44:53.902444,rappi,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Big Mac,106.54,True,31.6,4.95,32.0,2x1 en bebidas seleccionadas,143.09
+2026-04-05T22:44:53.904445,rappi,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Coca-Cola 500ml,38.49,True,31.6,4.95,32.0,2x1 en bebidas seleccionadas,75.04
+2026-04-05T22:44:53.906444,rappi,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Combo Mediano,154.17,True,31.6,4.95,32.0,2x1 en bebidas seleccionadas,190.71999999999997
+2026-04-05T22:44:53.907443,rappi,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Big Mac,110.7,True,30.25,4.95,40.0,2x1 en bebidas seleccionadas,145.89999999999998
+2026-04-05T22:44:53.909444,rappi,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Coca-Cola 500ml,39.76,True,30.25,4.95,40.0,2x1 en bebidas seleccionadas,74.96
+2026-04-05T22:44:53.911446,rappi,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Combo Mediano,146.25,True,30.25,4.95,40.0,2x1 en bebidas seleccionadas,181.45
+2026-04-05T22:44:53.912445,rappi,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Big Mac,115.15,True,18.7,4.95,20.0,,138.79999999999998
+2026-04-05T22:44:53.913444,rappi,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Coca-Cola 500ml,42.53,True,18.7,4.95,20.0,,66.18
+2026-04-05T22:44:53.915446,rappi,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Combo Mediano,162.58,True,18.7,4.95,20.0,,186.23
+2026-04-05T22:44:53.917445,rappi,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Big Mac,104.24,True,,,,,104.24
+2026-04-05T22:44:53.918444,rappi,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Coca-Cola 500ml,39.33,True,,,,,39.33
+2026-04-05T22:44:53.919444,rappi,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Combo Mediano,149.13,True,,,,,149.13
+2026-04-05T22:44:53.920444,rappi,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Big Mac,104.08,True,37.06,4.95,47.0,Rappi Turbo: entrega en 15 min,146.08999999999997
+2026-04-05T22:44:53.922448,rappi,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Coca-Cola 500ml,39.24,True,37.06,4.95,47.0,Rappi Turbo: entrega en 15 min,81.25000000000001
+2026-04-05T22:44:53.922448,rappi,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Combo Mediano,,False,37.06,4.95,47.0,Rappi Turbo: entrega en 15 min,
+2026-04-05T22:44:53.924449,rappi,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Big Mac,108.07,True,31.1,4.95,43.0,20% off con RappiPay,144.11999999999998
+2026-04-05T22:44:53.927446,rappi,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Coca-Cola 500ml,40.36,True,31.1,4.95,43.0,20% off con RappiPay,76.41000000000001
+2026-04-05T22:44:53.928446,rappi,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Combo Mediano,145.51,True,31.1,4.95,43.0,20% off con RappiPay,181.55999999999997
+2026-04-05T22:44:53.929448,rappi,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Big Mac,,False,,,,,
+2026-04-05T22:44:53.931449,rappi,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Coca-Cola 500ml,39.12,True,,,,,39.12
+2026-04-05T22:44:53.933446,rappi,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Combo Mediano,149.49,True,,,,,149.49
+2026-04-05T22:44:53.934445,rappi,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Big Mac,112.48,True,30.82,4.95,36.0,,148.25
+2026-04-05T22:44:53.935447,rappi,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Coca-Cola 500ml,,False,30.82,4.95,36.0,,
+2026-04-05T22:44:53.936446,rappi,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Combo Mediano,151.4,True,30.82,4.95,36.0,,187.17
+2026-04-05T22:44:53.937445,rappi,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Big Mac,108.49,True,32.84,4.95,33.0,,146.27999999999997
+2026-04-05T22:44:53.939445,rappi,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Coca-Cola 500ml,38.66,True,32.84,4.95,33.0,,76.45
+2026-04-05T22:44:53.940446,rappi,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Combo Mediano,150.18,True,32.84,4.95,33.0,,187.97
+2026-04-05T22:44:53.942447,rappi,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Big Mac,111.59,True,29.4,4.95,35.0,,145.94
+2026-04-05T22:44:53.943446,rappi,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Coca-Cola 500ml,38.03,True,29.4,4.95,35.0,,72.38000000000001
+2026-04-05T22:44:53.944445,rappi,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Combo Mediano,149.42,True,29.4,4.95,35.0,,183.76999999999998
+2026-04-05T22:44:53.945446,rappi,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Big Mac,,False,33.14,4.95,39.0,20% off con RappiPay,
+2026-04-05T22:44:53.946446,rappi,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Coca-Cola 500ml,40.25,True,33.14,4.95,39.0,20% off con RappiPay,78.34
+2026-04-05T22:44:53.947446,rappi,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Combo Mediano,146.46,True,33.14,4.95,39.0,20% off con RappiPay,184.55
+2026-04-05T22:44:53.949446,rappi,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Big Mac,113.31,True,31.46,4.95,37.0,2x1 en bebidas seleccionadas,149.72
+2026-04-05T22:44:53.950446,rappi,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Coca-Cola 500ml,40.14,True,31.46,4.95,37.0,2x1 en bebidas seleccionadas,76.55
+2026-04-05T22:44:53.951447,rappi,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Combo Mediano,146.27,True,31.46,4.95,37.0,2x1 en bebidas seleccionadas,182.68
+2026-04-05T22:44:53.952446,rappi,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Big Mac,107.45,True,,,,,107.45
+2026-04-05T22:44:53.953449,rappi,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Coca-Cola 500ml,39.01,True,,,,,39.01
+2026-04-05T22:44:53.956453,rappi,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Combo Mediano,144.89,True,,,,,144.89
+2026-04-05T22:44:53.957452,rappi,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Big Mac,106.23,True,32.33,4.95,30.0,,143.51
+2026-04-05T22:44:53.959451,rappi,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Coca-Cola 500ml,37.87,True,32.33,4.95,30.0,,75.14999999999999
+2026-04-05T22:44:53.960447,rappi,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Combo Mediano,149.97,True,32.33,4.95,30.0,,187.25
+2026-04-05T22:44:53.961447,rappi,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Big Mac,111.73,True,26.68,4.95,30.0,,143.35999999999999
+2026-04-05T22:44:53.962449,rappi,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Coca-Cola 500ml,38.68,True,26.68,4.95,30.0,,70.31
+2026-04-05T22:44:53.965451,rappi,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Combo Mediano,146.41,True,26.68,4.95,30.0,,178.04
+2026-04-05T22:44:53.967447,rappi,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Big Mac,109.12,True,38.02,4.95,38.0,,152.09
+2026-04-05T22:44:53.969448,rappi,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Coca-Cola 500ml,38.47,True,38.02,4.95,38.0,,81.44000000000001
+2026-04-05T22:44:53.969448,rappi,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Combo Mediano,145.78,True,38.02,4.95,38.0,,188.75
+2026-04-05T22:44:53.970447,rappi,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Big Mac,114.02,True,17.88,4.95,23.0,Rappi Turbo: entrega en 15 min,136.85
+2026-04-05T22:44:53.972450,rappi,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Coca-Cola 500ml,40.94,True,17.88,4.95,23.0,Rappi Turbo: entrega en 15 min,63.769999999999996
+2026-04-05T22:44:53.973451,rappi,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Combo Mediano,160.44,True,17.88,4.95,23.0,Rappi Turbo: entrega en 15 min,183.26999999999998
+2026-04-05T22:44:53.977449,ubereats,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Big Mac,127.01,True,35.07,16.15,27.0,,178.23000000000002
+2026-04-05T22:44:53.978448,ubereats,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Coca-Cola 500ml,47.44,True,35.07,16.15,27.0,,98.66
+2026-04-05T22:44:53.979448,ubereats,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Combo Mediano,169.1,True,35.07,16.15,27.0,,220.32
+2026-04-05T22:44:53.981449,ubereats,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Big Mac,132.33,True,34.19,16.15,32.0,,182.67000000000002
+2026-04-05T22:44:53.982450,ubereats,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Coca-Cola 500ml,47.91,True,34.19,16.15,32.0,,98.25
+2026-04-05T22:44:53.983448,ubereats,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Combo Mediano,166.95,True,34.19,16.15,32.0,,217.29
+2026-04-05T22:44:53.985451,ubereats,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Big Mac,125.18,True,31.54,16.15,34.0,Envío gratis con Uber One,172.87
+2026-04-05T22:44:53.987452,ubereats,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Coca-Cola 500ml,50.53,True,31.54,16.15,34.0,Envío gratis con Uber One,98.22
+2026-04-05T22:44:53.989453,ubereats,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Combo Mediano,170.83,True,31.54,16.15,34.0,Envío gratis con Uber One,218.52
+2026-04-05T22:44:53.991451,ubereats,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Big Mac,132.34,True,32.47,16.15,26.0,,180.96
+2026-04-05T22:44:53.993450,ubereats,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Coca-Cola 500ml,50.13,True,32.47,16.15,26.0,,98.75
+2026-04-05T22:44:53.994450,ubereats,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Combo Mediano,175.3,True,32.47,16.15,26.0,,223.92000000000002
+2026-04-05T22:44:53.995450,ubereats,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Big Mac,127.22,True,29.86,16.15,25.0,Envío gratis con Uber One,173.23
+2026-04-05T22:44:53.998449,ubereats,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Coca-Cola 500ml,49.89,True,29.86,16.15,25.0,Envío gratis con Uber One,95.9
+2026-04-05T22:44:54.000451,ubereats,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Combo Mediano,169.59,True,29.86,16.15,25.0,Envío gratis con Uber One,215.6
+2026-04-05T22:44:54.001450,ubereats,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Big Mac,,False,40.24,16.15,41.0,,
+2026-04-05T22:44:54.002449,ubereats,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Coca-Cola 500ml,48.66,True,40.24,16.15,41.0,,105.05000000000001
+2026-04-05T22:44:54.003451,ubereats,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Combo Mediano,171.39,True,40.24,16.15,41.0,,227.78
+2026-04-05T22:44:54.005452,ubereats,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Big Mac,124.4,True,34.81,16.15,41.0,Envío gratis con Uber One,175.36
+2026-04-05T22:44:54.007450,ubereats,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Coca-Cola 500ml,47.33,True,34.81,16.15,41.0,Envío gratis con Uber One,98.28999999999999
+2026-04-05T22:44:54.008451,ubereats,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Combo Mediano,,False,34.81,16.15,41.0,Envío gratis con Uber One,
+2026-04-05T22:44:54.009450,ubereats,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Big Mac,122.98,True,36.02,16.15,29.0,,175.15
+2026-04-05T22:44:54.010451,ubereats,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Coca-Cola 500ml,47.15,True,36.02,16.15,29.0,,99.32
+2026-04-05T22:44:54.011451,ubereats,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Combo Mediano,171.74,True,36.02,16.15,29.0,,223.91000000000003
+2026-04-05T22:44:54.012450,ubereats,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Big Mac,116.17,True,44.11,16.15,34.0,,176.43
+2026-04-05T22:44:54.013452,ubereats,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Coca-Cola 500ml,46.29,True,44.11,16.15,34.0,,106.55000000000001
+2026-04-05T22:44:54.014453,ubereats,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Combo Mediano,159.78,True,44.11,16.15,34.0,,220.04
+2026-04-05T22:44:54.015454,ubereats,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Big Mac,117.5,True,42.36,16.15,39.0,,176.01000000000002
+2026-04-05T22:44:54.017451,ubereats,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Coca-Cola 500ml,46.28,True,42.36,16.15,39.0,,104.78999999999999
+2026-04-05T22:44:54.018452,ubereats,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Combo Mediano,163.65,True,42.36,16.15,39.0,,222.16
+2026-04-05T22:44:54.018452,ubereats,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Big Mac,130.11,True,31.36,16.15,35.0,,177.62000000000003
+2026-04-05T22:44:54.019452,ubereats,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Coca-Cola 500ml,50.03,True,31.36,16.15,35.0,,97.53999999999999
+2026-04-05T22:44:54.021452,ubereats,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Combo Mediano,169.59,True,31.36,16.15,35.0,,217.1
+2026-04-05T22:44:54.022452,ubereats,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Big Mac,113.17,True,,,,,113.17
+2026-04-05T22:44:54.022452,ubereats,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Coca-Cola 500ml,44.86,True,,,,,44.86
+2026-04-05T22:44:54.023451,ubereats,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Combo Mediano,148.54,True,,,,,148.54
+2026-04-05T22:44:54.024452,ubereats,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Big Mac,115.47,True,59.98,16.15,44.0,,191.6
+2026-04-05T22:44:54.024452,ubereats,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Coca-Cola 500ml,43.24,True,59.98,16.15,44.0,,119.37
+2026-04-05T22:44:54.025450,ubereats,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Combo Mediano,,False,59.98,16.15,44.0,,
+2026-04-05T22:44:54.025450,ubereats,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Big Mac,,False,46.43,16.15,41.0,,
+2026-04-05T22:44:54.026450,ubereats,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Coca-Cola 500ml,45.05,True,46.43,16.15,41.0,,107.63
+2026-04-05T22:44:54.026450,ubereats,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Combo Mediano,162.69,True,46.43,16.15,41.0,,225.27
+2026-04-05T22:44:54.027450,ubereats,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Big Mac,123.51,True,40.73,16.15,43.0,,180.39000000000001
+2026-04-05T22:44:54.028452,ubereats,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Coca-Cola 500ml,44.04,True,40.73,16.15,43.0,,100.91999999999999
+2026-04-05T22:44:54.028452,ubereats,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Combo Mediano,162.04,True,40.73,16.15,43.0,,218.92
+2026-04-05T22:44:54.029451,ubereats,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Big Mac,,False,41.87,16.15,38.0,,
+2026-04-05T22:44:54.030451,ubereats,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Coca-Cola 500ml,45.01,True,41.87,16.15,38.0,,103.03
+2026-04-05T22:44:54.031454,ubereats,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Combo Mediano,162.98,True,41.87,16.15,38.0,,221.0
+2026-04-05T22:44:54.032453,ubereats,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Big Mac,119.38,True,46.64,16.15,44.0,25% off en pedidos +$250,182.17
+2026-04-05T22:44:54.033452,ubereats,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Coca-Cola 500ml,,False,46.64,16.15,44.0,25% off en pedidos +$250,
+2026-04-05T22:44:54.033452,ubereats,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Combo Mediano,157.86,True,46.64,16.15,44.0,25% off en pedidos +$250,220.65
+2026-04-05T22:44:54.034454,ubereats,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Big Mac,,False,48.34,16.15,45.0,20% de descuento en tu primer pedido,
+2026-04-05T22:44:54.035453,ubereats,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Coca-Cola 500ml,44.21,True,48.34,16.15,45.0,20% de descuento en tu primer pedido,108.70000000000002
+2026-04-05T22:44:54.036453,ubereats,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Combo Mediano,164.42,True,48.34,16.15,45.0,20% de descuento en tu primer pedido,228.91
+2026-04-05T22:44:54.037453,ubereats,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Big Mac,120.32,True,44.73,16.15,37.0,,181.2
+2026-04-05T22:44:54.037453,ubereats,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Coca-Cola 500ml,46.26,True,44.73,16.15,37.0,,107.13999999999999
+2026-04-05T22:44:54.038455,ubereats,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Combo Mediano,163.87,True,44.73,16.15,37.0,,224.75
+2026-04-05T22:44:54.039452,ubereats,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Big Mac,117.68,True,44.99,16.15,41.0,Envío gratis con Uber One,178.82000000000002
+2026-04-05T22:44:54.039452,ubereats,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Coca-Cola 500ml,46.24,True,44.99,16.15,41.0,Envío gratis con Uber One,107.38
+2026-04-05T22:44:54.040451,ubereats,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Combo Mediano,164.17,True,44.99,16.15,41.0,Envío gratis con Uber One,225.31
+2026-04-05T22:44:54.040451,ubereats,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Big Mac,111.63,True,55.31,16.15,49.0,,183.09
+2026-04-05T22:44:54.041451,ubereats,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Coca-Cola 500ml,41.95,True,55.31,16.15,49.0,,113.41
+2026-04-05T22:44:54.042452,ubereats,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Combo Mediano,154.74,True,55.31,16.15,49.0,,226.20000000000002
+2026-04-05T22:44:54.042452,ubereats,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Big Mac,117.0,True,44.53,16.15,35.0,2x1 en combos seleccionados,177.68
+2026-04-05T22:44:54.043452,ubereats,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Coca-Cola 500ml,45.58,True,44.53,16.15,35.0,2x1 en combos seleccionados,106.25999999999999
+2026-04-05T22:44:54.044453,ubereats,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Combo Mediano,158.91,True,44.53,16.15,35.0,2x1 en combos seleccionados,219.59
+2026-04-05T22:44:54.044453,ubereats,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Big Mac,121.39,True,41.6,16.15,35.0,,179.14000000000001
+2026-04-05T22:44:54.045454,ubereats,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Coca-Cola 500ml,46.6,True,41.6,16.15,35.0,,104.35
+2026-04-05T22:44:54.046452,ubereats,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Combo Mediano,163.63,True,41.6,16.15,35.0,,221.38
+2026-04-05T22:44:54.046452,ubereats,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Big Mac,114.82,True,57.63,16.15,47.0,Envío gratis con Uber One,188.6
+2026-04-05T22:44:54.047453,ubereats,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Coca-Cola 500ml,44.14,True,57.63,16.15,47.0,Envío gratis con Uber One,117.92000000000002
+2026-04-05T22:44:54.048455,ubereats,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Combo Mediano,153.39,True,57.63,16.15,47.0,Envío gratis con Uber One,227.17
+2026-04-05T22:44:54.048455,ubereats,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Big Mac,126.29,True,33.02,16.15,35.0,,175.46
+2026-04-05T22:44:54.049453,ubereats,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Coca-Cola 500ml,49.38,True,33.02,16.15,35.0,,98.55000000000001
+2026-04-05T22:44:54.050454,ubereats,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Combo Mediano,173.92,True,33.02,16.15,35.0,,223.09
+2026-04-05T22:44:54.052456,didi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Big Mac,103.94,True,16.85,0.0,25.0,Envío gratis en pedidos +$200,120.78999999999999
+2026-04-05T22:44:54.053455,didi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Coca-Cola 500ml,39.05,True,16.85,0.0,25.0,Envío gratis en pedidos +$200,55.9
+2026-04-05T22:44:54.054454,didi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Combo Mediano,143.84,True,16.85,0.0,25.0,Envío gratis en pedidos +$200,160.69
+2026-04-05T22:44:54.055455,didi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Big Mac,103.26,True,18.83,0.0,23.0,,122.09
+2026-04-05T22:44:54.056454,didi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Coca-Cola 500ml,38.26,True,18.83,0.0,23.0,,57.089999999999996
+2026-04-05T22:44:54.056454,didi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Combo Mediano,144.5,True,18.83,0.0,23.0,,163.32999999999998
+2026-04-05T22:44:54.057454,didi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Big Mac,101.9,True,19.16,0.0,29.0,,121.06
+2026-04-05T22:44:54.058454,didi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Coca-Cola 500ml,37.87,True,19.16,0.0,29.0,,57.03
+2026-04-05T22:44:54.059455,didi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Combo Mediano,150.56,True,19.16,0.0,29.0,,169.72
+2026-04-05T22:44:54.059455,didi,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Big Mac,,False,17.77,0.0,27.0,,
+2026-04-05T22:44:54.060456,didi,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Coca-Cola 500ml,37.75,True,17.77,0.0,27.0,,55.519999999999996
+2026-04-05T22:44:54.060456,didi,santa_fe_perisur,"Av. Vasco de Quiroga 3800, Santa Fe, CDMX",premium,19.3588,-99.2595,Combo Mediano,148.86,True,17.77,0.0,27.0,,166.63000000000002
+2026-04-05T22:44:54.061454,didi,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Big Mac,103.03,True,16.7,0.0,24.0,,119.73
+2026-04-05T22:44:54.061454,didi,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Coca-Cola 500ml,37.02,True,16.7,0.0,24.0,,53.72
+2026-04-05T22:44:54.062453,didi,interlomas,"Av. San Mateo 233, Interlomas, Huixquilucan",premium,19.413,-99.276,Combo Mediano,151.06,True,16.7,0.0,24.0,,167.76
+2026-04-05T22:44:54.063454,didi,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Big Mac,99.29,True,21.42,0.0,34.0,15% en tu primer pedido,120.71000000000001
+2026-04-05T22:44:54.063454,didi,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Coca-Cola 500ml,37.39,True,21.42,0.0,34.0,15% en tu primer pedido,58.81
+2026-04-05T22:44:54.064454,didi,condesa_tamaulipas,"Av. Tamaulipas 66, Condesa, CDMX",medio_alto,19.4116,-99.1742,Combo Mediano,145.05,True,21.42,0.0,34.0,15% en tu primer pedido,166.47000000000003
+2026-04-05T22:44:54.065457,didi,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Big Mac,,False,,,,,
+2026-04-05T22:44:54.066455,didi,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Coca-Cola 500ml,37.29,True,,,,,37.29
+2026-04-05T22:44:54.067454,didi,roma_norte,"Álvaro Obregón 127, Roma Norte, CDMX",medio_alto,19.4192,-99.1606,Combo Mediano,141.7,True,,,,,141.7
+2026-04-05T22:44:54.068458,didi,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Big Mac,99.28,True,18.71,0.0,28.0,20% en combos seleccionados,117.99000000000001
+2026-04-05T22:44:54.069455,didi,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Coca-Cola 500ml,35.65,True,18.71,0.0,28.0,20% en combos seleccionados,54.36
+2026-04-05T22:44:54.070456,didi,narvarte,"Amores 1304, Narvarte Poniente, CDMX",medio_alto,19.4021,-99.1628,Combo Mediano,144.62,True,18.71,0.0,28.0,20% en combos seleccionados,163.33
+2026-04-05T22:44:54.071454,didi,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Big Mac,,False,22.13,0.0,30.0,,
+2026-04-05T22:44:54.072456,didi,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Coca-Cola 500ml,35.29,True,22.13,0.0,30.0,,57.42
+2026-04-05T22:44:54.073456,didi,del_valle,"Insurgentes Sur 1079, Del Valle, CDMX",medio_alto,19.383,-99.159,Combo Mediano,135.02,True,22.13,0.0,30.0,,157.15
+2026-04-05T22:44:54.073456,didi,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Big Mac,98.08,True,19.94,0.0,29.0,20% en combos seleccionados,118.02
+2026-04-05T22:44:54.074454,didi,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Coca-Cola 500ml,35.25,True,19.94,0.0,29.0,20% en combos seleccionados,55.19
+2026-04-05T22:44:54.075456,didi,coyoacan_centro,"Jardín Centenario 12, Coyoacán, CDMX",medio_alto,19.3451,-99.1613,Combo Mediano,,False,19.94,0.0,29.0,20% en combos seleccionados,
+2026-04-05T22:44:54.075456,didi,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Big Mac,104.69,True,17.98,0.0,28.0,,122.67
+2026-04-05T22:44:54.076456,didi,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Coca-Cola 500ml,38.1,True,17.98,0.0,28.0,,56.08
+2026-04-05T22:44:54.077455,didi,satelite,"Circuito Médicos 13, Ciudad Satélite, Naucalpan",medio,19.502,-99.234,Combo Mediano,148.39,True,17.98,0.0,28.0,,166.36999999999998
+2026-04-05T22:44:54.077455,didi,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Big Mac,,False,27.35,0.0,38.0,,
+2026-04-05T22:44:54.078456,didi,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Coca-Cola 500ml,34.5,True,27.35,0.0,38.0,,61.85
+2026-04-05T22:44:54.079454,didi,ecatepec_centro,"Av. Central 100, Ecatepec de Morelos, Edomex",medio,19.6018,-99.0491,Combo Mediano,138.49,True,27.35,0.0,38.0,,165.84
+2026-04-05T22:44:54.079454,didi,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Big Mac,,False,23.93,0.0,37.0,,
+2026-04-05T22:44:54.080455,didi,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Coca-Cola 500ml,,False,23.93,0.0,37.0,,
+2026-04-05T22:44:54.081455,didi,tlalpan,"Calzada de Tlalpan 3700, Tlalpan, CDMX",medio,19.2914,-99.1634,Combo Mediano,134.21,True,23.93,0.0,37.0,,158.14000000000001
+2026-04-05T22:44:54.082456,didi,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Big Mac,104.49,True,19.2,0.0,29.0,15% en tu primer pedido,123.69
+2026-04-05T22:44:54.082456,didi,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Coca-Cola 500ml,37.2,True,19.2,0.0,29.0,15% en tu primer pedido,56.400000000000006
+2026-04-05T22:44:54.083457,didi,azcapo_aquiles,"Av. Aquiles Serdán 620, Azcapotzalco, CDMX",medio,19.486,-99.1854,Combo Mediano,144.22,True,19.2,0.0,29.0,15% en tu primer pedido,163.42
+2026-04-05T22:44:54.084456,didi,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Big Mac,98.16,True,20.29,0.0,26.0,20% en combos seleccionados,118.44999999999999
+2026-04-05T22:44:54.085458,didi,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Coca-Cola 500ml,36.32,True,20.29,0.0,26.0,20% en combos seleccionados,56.61
+2026-04-05T22:44:54.085458,didi,gustavo_madero,"Av. Montevideo 400, Gustavo A. Madero, CDMX",medio,19.4888,-99.117,Combo Mediano,135.98,True,20.29,0.0,26.0,20% en combos seleccionados,156.26999999999998
+2026-04-05T22:44:54.087456,didi,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Big Mac,,False,21.82,0.0,27.0,20% en combos seleccionados,
+2026-04-05T22:44:54.088459,didi,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Coca-Cola 500ml,,False,21.82,0.0,27.0,20% en combos seleccionados,
+2026-04-05T22:44:54.089457,didi,cuauhtémoc_doctores,"Dr. Lavista 144, Doctores, CDMX",medio,19.4117,-99.1497,Combo Mediano,142.84,True,21.82,0.0,27.0,20% en combos seleccionados,164.66
+2026-04-05T22:44:54.090458,didi,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Big Mac,107.7,True,18.99,0.0,28.0,,126.69
+2026-04-05T22:44:54.090458,didi,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Coca-Cola 500ml,38.77,True,18.99,0.0,28.0,,57.760000000000005
+2026-04-05T22:44:54.091457,didi,pedregal,"Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",medio,19.321,-99.189,Combo Mediano,150.18,True,18.99,0.0,28.0,,169.17000000000002
+2026-04-05T22:44:54.091457,didi,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Big Mac,107.41,True,16.83,0.0,27.0,15% en tu primer pedido,124.24
+2026-04-05T22:44:54.092457,didi,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Coca-Cola 500ml,37.56,True,16.83,0.0,27.0,15% en tu primer pedido,54.39
+2026-04-05T22:44:54.093459,didi,mixcoac,"Patriotismo 229, Mixcoac, CDMX",medio,19.3795,-99.1868,Combo Mediano,145.15,True,16.83,0.0,27.0,15% en tu primer pedido,161.98000000000002
+2026-04-05T22:44:54.094458,didi,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Big Mac,,False,19.96,0.0,33.0,,
+2026-04-05T22:44:54.095459,didi,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Coca-Cola 500ml,35.99,True,19.96,0.0,33.0,,55.95
+2026-04-05T22:44:54.095459,didi,tepito,"Eje 1 Norte 39, Tepito, CDMX",popular,19.4438,-99.127,Combo Mediano,142.61,True,19.96,0.0,33.0,,162.57000000000002
+2026-04-05T22:44:54.096456,didi,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Big Mac,99.03,True,,,,,99.03
+2026-04-05T22:44:54.098462,didi,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Coca-Cola 500ml,36.36,True,,,,,36.36
+2026-04-05T22:44:54.100457,didi,iztapalapa_canal,"Canal de San Juan 268, Iztapalapa, CDMX",popular,19.3576,-99.0627,Combo Mediano,137.55,True,,,,,137.55
+2026-04-05T22:44:54.101458,didi,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Big Mac,96.74,True,,,,,96.74
+2026-04-05T22:44:54.102460,didi,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Coca-Cola 500ml,34.45,True,,,,,34.45
+2026-04-05T22:44:54.102460,didi,xochimilco,"Av. México 57, Xochimilco, CDMX",popular,19.2569,-99.1023,Combo Mediano,136.84,True,,,,,136.84
+2026-04-05T22:44:54.104459,didi,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Big Mac,98.86,True,24.19,0.0,34.0,,123.05
+2026-04-05T22:44:54.104459,didi,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Coca-Cola 500ml,36.02,True,24.19,0.0,34.0,,60.21000000000001
+2026-04-05T22:44:54.105457,didi,iztacalco,"Rio Churubusco 340, Iztacalco, CDMX",popular,19.3936,-99.0964,Combo Mediano,136.63,True,24.19,0.0,34.0,,160.82
+2026-04-05T22:44:54.106458,didi,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Big Mac,97.83,True,22.63,0.0,35.0,20% en combos seleccionados,120.46
+2026-04-05T22:44:54.106458,didi,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Coca-Cola 500ml,,False,22.63,0.0,35.0,20% en combos seleccionados,
+2026-04-05T22:44:54.107458,didi,venustiano_carranza,"Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",popular,19.436,-99.0891,Combo Mediano,141.66,True,22.63,0.0,35.0,20% en combos seleccionados,164.29
+2026-04-05T22:44:54.107458,didi,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Big Mac,,False,,,,,
+2026-04-05T22:44:54.108458,didi,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Coca-Cola 500ml,,False,,,,,
+2026-04-05T22:44:54.108458,didi,tlahuac,"Av. Tláhuac 5000, Tláhuac, CDMX",popular,19.2786,-99.0176,Combo Mediano,,False,,,,,
+2026-04-05T22:44:54.109457,didi,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Big Mac,108.06,True,19.75,0.0,30.0,15% en tu primer pedido,127.81
+2026-04-05T22:44:54.109457,didi,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Coca-Cola 500ml,38.38,True,19.75,0.0,30.0,15% en tu primer pedido,58.13
+2026-04-05T22:44:54.110460,didi,magdalena_contreras,"Av. Luis Cabrera 500, La Magdalena Contreras, CDMX",popular,19.3178,-99.2199,Combo Mediano,148.03,True,19.75,0.0,30.0,15% en tu primer pedido,167.78

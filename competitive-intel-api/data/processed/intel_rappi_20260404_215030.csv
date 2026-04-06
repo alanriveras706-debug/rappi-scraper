@@ -1,0 +1,4 @@
+timestamp,platform,address_id,address,zone,lat,lng,product,price,available,delivery_fee,service_fee,eta_min,promotions,total_cost
+2026-04-04T21:50:08.728415,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Big Mac,,False,,,,,
+2026-04-04T21:50:19.599819,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Coca-Cola 500ml,,False,,,,,
+2026-04-04T21:50:30.459720,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Combo Mediano,,False,,,,,

@@ -1,0 +1,10 @@
+timestamp,platform,address_id,address,zone,lat,lng,product,price,available,delivery_fee,service_fee,eta_min,promotions
+2026-04-05T01:40:01.237597,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Big Mac,119.19,True,18.38,4.95,26,
+2026-04-05T01:40:12.105996,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Coca-Cola 500ml,42.37,True,18.38,4.95,26,
+2026-04-05T01:40:22.969773,rappi,polanco_masaryk,"Av. Presidente Masaryk 111, Polanco, CDMX",premium,19.4326,-99.1999,Combo Mediano,164.27,True,18.38,4.95,26,
+2026-04-05T01:40:22.970772,rappi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Big Mac,117.98,True,18.99,4.95,23,
+2026-04-05T01:40:22.971773,rappi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Coca-Cola 500ml,42.4,True,18.99,4.95,23,
+2026-04-05T01:40:22.971773,rappi,polanco_ejercito,"Ejercito Nacional 843, Polanco, CDMX",premium,19.436,-99.204,Combo Mediano,154.73,True,18.99,4.95,23,
+2026-04-05T01:40:22.972772,rappi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Big Mac,120.04,True,20.56,4.95,20,
+2026-04-05T01:40:22.972772,rappi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Coca-Cola 500ml,43.26,True,20.56,4.95,20,
+2026-04-05T01:40:22.972772,rappi,lomas_reforma,"Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",premium,19.4334,-99.2239,Combo Mediano,160.91,True,20.56,4.95,20,
