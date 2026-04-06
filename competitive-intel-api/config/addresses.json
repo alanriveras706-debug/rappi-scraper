@@ -1,0 +1,30 @@
+[
+  {"id": "polanco_masaryk",   "address": "Av. Presidente Masaryk 111, Polanco, CDMX",          "zone": "premium",    "lat": 19.4326, "lng": -99.1999},
+  {"id": "polanco_ejercito",  "address": "Ejercito Nacional 843, Polanco, CDMX",                "zone": "premium",    "lat": 19.4360, "lng": -99.2040},
+  {"id": "lomas_reforma",     "address": "Paseo de la Reforma 2608, Lomas Chapultepec, CDMX",  "zone": "premium",    "lat": 19.4334, "lng": -99.2239},
+  {"id": "santa_fe_perisur",  "address": "Av. Vasco de Quiroga 3800, Santa Fe, CDMX",          "zone": "premium",    "lat": 19.3588, "lng": -99.2595},
+  {"id": "interlomas",        "address": "Av. San Mateo 233, Interlomas, Huixquilucan",         "zone": "premium",    "lat": 19.4130, "lng": -99.2760},
+
+  {"id": "condesa_tamaulipas","address": "Av. Tamaulipas 66, Condesa, CDMX",                   "zone": "medio_alto", "lat": 19.4116, "lng": -99.1742},
+  {"id": "roma_norte",        "address": "Álvaro Obregón 127, Roma Norte, CDMX",               "zone": "medio_alto", "lat": 19.4192, "lng": -99.1606},
+  {"id": "narvarte",          "address": "Amores 1304, Narvarte Poniente, CDMX",               "zone": "medio_alto", "lat": 19.4021, "lng": -99.1628},
+  {"id": "del_valle",         "address": "Insurgentes Sur 1079, Del Valle, CDMX",              "zone": "medio_alto", "lat": 19.3830, "lng": -99.1590},
+  {"id": "coyoacan_centro",   "address": "Jardín Centenario 12, Coyoacán, CDMX",               "zone": "medio_alto", "lat": 19.3451, "lng": -99.1613},
+
+  {"id": "satelite",          "address": "Circuito Médicos 13, Ciudad Satélite, Naucalpan",    "zone": "medio",      "lat": 19.5020, "lng": -99.2340},
+  {"id": "ecatepec_centro",   "address": "Av. Central 100, Ecatepec de Morelos, Edomex",       "zone": "medio",      "lat": 19.6018, "lng": -99.0491},
+  {"id": "tlalpan",           "address": "Calzada de Tlalpan 3700, Tlalpan, CDMX",             "zone": "medio",      "lat": 19.2914, "lng": -99.1634},
+  {"id": "azcapo_aquiles",    "address": "Av. Aquiles Serdán 620, Azcapotzalco, CDMX",         "zone": "medio",      "lat": 19.4860, "lng": -99.1854},
+  {"id": "gustavo_madero",    "address": "Av. Montevideo 400, Gustavo A. Madero, CDMX",        "zone": "medio",      "lat": 19.4888, "lng": -99.1170},
+  {"id": "cuauhtémoc_doctores","address": "Dr. Lavista 144, Doctores, CDMX",                   "zone": "medio",      "lat": 19.4117, "lng": -99.1497},
+  {"id": "pedregal",          "address": "Insurgentes Sur 3465, Pedregal de San Ángel, CDMX",  "zone": "medio",      "lat": 19.3210, "lng": -99.1890},
+  {"id": "mixcoac",           "address": "Patriotismo 229, Mixcoac, CDMX",                     "zone": "medio",      "lat": 19.3795, "lng": -99.1868},
+
+  {"id": "tepito",            "address": "Eje 1 Norte 39, Tepito, CDMX",                       "zone": "popular",    "lat": 19.4438, "lng": -99.1270},
+  {"id": "iztapalapa_canal",  "address": "Canal de San Juan 268, Iztapalapa, CDMX",            "zone": "popular",    "lat": 19.3576, "lng": -99.0627},
+  {"id": "xochimilco",        "address": "Av. México 57, Xochimilco, CDMX",                    "zone": "popular",    "lat": 19.2569, "lng": -99.1023},
+  {"id": "iztacalco",         "address": "Rio Churubusco 340, Iztacalco, CDMX",                "zone": "popular",    "lat": 19.3936, "lng": -99.0964},
+  {"id": "venustiano_carranza","address": "Ignacio Zaragoza 1300, Venustiano Carranza, CDMX",  "zone": "popular",    "lat": 19.4360, "lng": -99.0891},
+  {"id": "tlahuac",           "address": "Av. Tláhuac 5000, Tláhuac, CDMX",                    "zone": "popular",    "lat": 19.2786, "lng": -99.0176},
+  {"id": "magdalena_contreras","address": "Av. Luis Cabrera 500, La Magdalena Contreras, CDMX","zone": "popular",    "lat": 19.3178, "lng": -99.2199}
+]

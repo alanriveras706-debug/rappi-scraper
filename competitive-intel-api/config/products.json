@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Big Mac",
+    "keywords": ["big mac"],
+    "category": "hamburguesa",
+    "reference_price_mxn": 109.0
+  },
+  {
+    "name": "Coca-Cola 500ml",
+    "keywords": ["coca-cola 500", "coca cola 500", "coke 500", "coca 500ml", "refresco 500"],
+    "category": "bebida",
+    "reference_price_mxn": 39.0
+  },
+  {
+    "name": "Combo Mediano",
+    "keywords": ["combo mediano", "combo big mac", "big mac combo", "combo mc", "combo #1"],
+    "category": "combo",
+    "reference_price_mxn": 149.0
+  }
+]

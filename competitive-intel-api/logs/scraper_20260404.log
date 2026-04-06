@@ -1,0 +1,138 @@
+2026-04-04 21:49:46 | INFO    | __main__:243 | =======================================================
+2026-04-04 21:49:46 | INFO    | __main__:244 |   Competitive Intelligence — México (API Only)
+2026-04-04 21:49:46 | INFO    | __main__:245 |   Plataformas : rappi
+2026-04-04 21:49:46 | INFO    | __main__:246 |   Direcciones : 3
+2026-04-04 21:49:46 | INFO    | __main__:247 |   Productos   : Big Mac, Coca-Cola 500ml, Combo Mediano
+2026-04-04 21:49:46 | INFO    | __main__:248 | =======================================================
+2026-04-04 21:49:46 | INFO    | __main__:130 | 
+───────────────────────────────────────────────────────
+2026-04-04 21:49:46 | INFO    | __main__:131 |   Plataforma: RAPPI
+2026-04-04 21:49:46 | INFO    | __main__:132 |   Direcciones: 3 | Productos: 3
+2026-04-04 21:49:46 | INFO    | __main__:133 | ───────────────────────────────────────────────────────
+2026-04-04 21:49:47 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:49:48 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:49:51 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:49:57 | ERROR   | api_clients.base_client:192 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 21:49:57 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 21:49:57 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:49:59 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:02 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:08 | ERROR   | api_clients.base_client:192 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 21:50:08 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 21:50:08 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Big Mac              | $—
+2026-04-04 21:50:08 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:10 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:13 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:19 | ERROR   | api_clients.base_client:192 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 21:50:19 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 21:50:19 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Coca-Cola 500ml      | $—
+2026-04-04 21:50:19 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:21 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:24 | WARNING | api_clients.base_client:185 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 21:50:30 | ERROR   | api_clients.base_client:192 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 21:50:30 | ERROR   | api_clients.base_client:96 | [circuit-breaker] ABIERTO para https://services.rappi.com.mx tras 4 fallos consecutivos
+2026-04-04 21:50:30 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 21:50:30 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Combo Mediano        | $—
+2026-04-04 21:50:30 | WARNING | __main__:75 | [rappi] Circuit abierto — omitiendo polanco_ejercito
+2026-04-04 21:50:30 | WARNING | __main__:75 | [rappi] Circuit abierto — omitiendo lomas_reforma
+2026-04-04 21:50:30 | INFO    | __main__:157 | Raw guardado: C:\Users\PC\Desktop\competitive-intel-api\data\raw\raw_rappi_20260404_215030.csv (3 filas)
+2026-04-04 21:50:30 | INFO    | __main__:173 | Processed guardado: C:\Users\PC\Desktop\competitive-intel-api\data\processed\intel_rappi_20260404_215030.csv
+2026-04-04 21:50:30 | INFO    | __main__:176 | 
+═══════════════════════════════════════════════════════
+2026-04-04 21:50:30 | INFO    | __main__:177 |   RESUMEN
+2026-04-04 21:50:30 | INFO    | __main__:178 | ═══════════════════════════════════════════════════════
+2026-04-04 21:50:30 | INFO    | __main__:199 | 
+Total registros: 3 | Con precio: 0 | Sin precio: 3
+2026-04-04 21:50:30 | INFO    | __main__:200 | ═══════════════════════════════════════════════════════
+2026-04-04 22:47:53 | INFO    | __main__:243 | =======================================================
+2026-04-04 22:47:53 | INFO    | __main__:244 |   Competitive Intelligence — México (API Only)
+2026-04-04 22:47:53 | INFO    | __main__:245 |   Plataformas : rappi
+2026-04-04 22:47:53 | INFO    | __main__:246 |   Direcciones : 3
+2026-04-04 22:47:53 | INFO    | __main__:247 |   Productos   : Big Mac, Coca-Cola 500ml, Combo Mediano
+2026-04-04 22:47:53 | INFO    | __main__:248 | =======================================================
+2026-04-04 22:47:54 | INFO    | __main__:130 | 
+───────────────────────────────────────────────────────
+2026-04-04 22:47:54 | INFO    | __main__:131 |   Plataforma: RAPPI
+2026-04-04 22:47:54 | INFO    | __main__:132 |   Direcciones: 3 | Productos: 3
+2026-04-04 22:47:54 | INFO    | __main__:133 | ───────────────────────────────────────────────────────
+2026-04-04 22:47:54 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:47:55 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:47:58 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:04 | ERROR   | api_clients.base_client:193 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:48:04 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:48:05 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:06 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:09 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:15 | ERROR   | api_clients.base_client:193 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:48:15 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:48:15 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Big Mac              | $—
+2026-04-04 22:48:15 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:17 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:20 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:26 | ERROR   | api_clients.base_client:193 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:48:26 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:48:26 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Coca-Cola 500ml      | $—
+2026-04-04 22:48:26 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:28 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:31 | WARNING | api_clients.base_client:186 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:48:37 | ERROR   | api_clients.base_client:193 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:48:37 | ERROR   | api_clients.base_client:97 | [circuit-breaker] ABIERTO para https://services.rappi.com.mx tras 4 fallos consecutivos
+2026-04-04 22:48:37 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:48:37 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Combo Mediano        | $—
+2026-04-04 22:48:37 | WARNING | __main__:75 | [rappi] Circuit abierto — omitiendo polanco_ejercito
+2026-04-04 22:48:37 | WARNING | __main__:75 | [rappi] Circuit abierto — omitiendo lomas_reforma
+2026-04-04 22:48:37 | INFO    | __main__:157 | Raw guardado: C:\Users\PC\Desktop\competitive-intel-api\data\raw\raw_rappi_20260404_224837.csv (3 filas)
+2026-04-04 22:48:37 | INFO    | __main__:173 | Processed guardado: C:\Users\PC\Desktop\competitive-intel-api\data\processed\intel_rappi_20260404_224837.csv
+2026-04-04 22:48:37 | INFO    | __main__:176 | 
+═══════════════════════════════════════════════════════
+2026-04-04 22:48:37 | INFO    | __main__:177 |   RESUMEN
+2026-04-04 22:48:37 | INFO    | __main__:178 | ═══════════════════════════════════════════════════════
+2026-04-04 22:48:37 | INFO    | __main__:199 | 
+Total registros: 3 | Con precio: 0 | Sin precio: 3
+2026-04-04 22:48:37 | INFO    | __main__:200 | ═══════════════════════════════════════════════════════
+2026-04-04 22:49:03 | INFO    | __main__:243 | =======================================================
+2026-04-04 22:49:03 | INFO    | __main__:244 |   Competitive Intelligence — México (API Only)
+2026-04-04 22:49:03 | INFO    | __main__:245 |   Plataformas : rappi
+2026-04-04 22:49:03 | INFO    | __main__:246 |   Direcciones : 3
+2026-04-04 22:49:03 | INFO    | __main__:247 |   Productos   : Big Mac, Coca-Cola 500ml, Combo Mediano
+2026-04-04 22:49:03 | INFO    | __main__:248 | =======================================================
+2026-04-04 22:49:03 | INFO    | __main__:130 | 
+───────────────────────────────────────────────────────
+2026-04-04 22:49:03 | INFO    | __main__:131 |   Plataforma: RAPPI
+2026-04-04 22:49:03 | INFO    | __main__:132 |   Direcciones: 3 | Productos: 3
+2026-04-04 22:49:03 | INFO    | __main__:133 | ───────────────────────────────────────────────────────
+2026-04-04 22:49:03 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:05 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:08 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:14 | ERROR   | api_clients.base_client:199 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:49:14 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:49:14 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:15 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:18 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:24 | ERROR   | api_clients.base_client:199 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:49:24 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:49:24 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Big Mac              | $—
+2026-04-04 22:49:25 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:26 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:29 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:35 | ERROR   | api_clients.base_client:199 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:49:35 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:49:35 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Coca-Cola 500ml      | $—
+2026-04-04 22:49:35 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:37 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:40 | WARNING | api_clients.base_client:192 | [conn-error] https://services.rappi.com.mx/api/restaurants/prime/: Cannot connect to host services.rappi.com.mx:443 ssl:default [[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)]
+2026-04-04 22:49:46 | ERROR   | api_clients.base_client:199 | [GET] https://services.rappi.com.mx/api/restaurants/prime/ — agotados 3 intentos
+2026-04-04 22:49:46 | ERROR   | api_clients.base_client:103 | [circuit-breaker] ABIERTO para https://services.rappi.com.mx tras 4 fallos consecutivos
+2026-04-04 22:49:46 | WARNING | api_clients.rappi_client:143 | [rappi] McDonald's no encontrado en (19.4326,-99.1999)
+2026-04-04 22:49:46 | INFO    | __main__:112 | ✗ rappi      | polanco_masaryk           | Combo Mediano        | $—
+2026-04-04 22:49:46 | WARNING | __main__:75 | [rappi] Circuit abierto — omitiendo polanco_ejercito
+2026-04-04 22:49:46 | WARNING | __main__:75 | [rappi] Circuit abierto — omitiendo lomas_reforma
+2026-04-04 22:49:46 | INFO    | __main__:157 | Raw guardado: C:\Users\PC\Desktop\competitive-intel-api\data\raw\raw_rappi_20260404_224946.csv (3 filas)
+2026-04-04 22:49:46 | INFO    | __main__:173 | Processed guardado: C:\Users\PC\Desktop\competitive-intel-api\data\processed\intel_rappi_20260404_224946.csv
+2026-04-04 22:49:46 | INFO    | __main__:176 | 
+═══════════════════════════════════════════════════════
+2026-04-04 22:49:46 | INFO    | __main__:177 |   RESUMEN
+2026-04-04 22:49:46 | INFO    | __main__:178 | ═══════════════════════════════════════════════════════
+2026-04-04 22:49:46 | INFO    | __main__:199 | 
+Total registros: 3 | Con precio: 0 | Sin precio: 3
+2026-04-04 22:49:46 | INFO    | __main__:200 | ═══════════════════════════════════════════════════════
