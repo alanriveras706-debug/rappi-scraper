@@ -1,4 +1,4 @@
-# Competitive Intelligence — API Only
+# Competitive Intelligence 
 
 ## Setup
 
