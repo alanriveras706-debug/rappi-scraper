@@ -1,14 +1,36 @@
 # Competitive Intelligence — API Only
 
-Sistema de inteligencia competitiva para **Rappi**, **Uber Eats** y **DiDi Food** en México.  
+Scraper de precios y condiciones de entrega para **Rappi**, **Uber Eats** y **DiDi Food** en México.  
 Recolecta precios, delivery fees, ETAs y promociones de McDonald's usando exclusivamente **HTTP/APIs** — sin Selenium, sin Playwright, sin HTML parsing.
 
----
+## ¿Qué hace?
 
-## Setup
+Dado un conjunto de direcciones en CDMX, consulta las tres plataformas en paralelo y genera CSVs listos para análisis. Compara precios del mismo producto en distintas zonas y plataformas sin intervención manual.
 
+**Ejemplo:**
+- `python main.py --platform rappi --limit 3` — primeras 3 direcciones en Rappi
+- `python main.py --platform ubereats --limit 5` — 5 direcciones en Uber Eats
+- `python main.py` — todas las plataformas, 25 direcciones CDMX
+
+El sistema maneja reintentos, rate limiting y circuit breakers automáticamente.
+
+## Stack
+
+- **HTTP:** aiohttp (requests asíncronos con retry y circuit breaker)
+- **Logging:** loguru (consola + archivo rotativo)
+- **Geocoding:** geopy con lru_cache
+- **Data:** Pandas para procesamiento y exportación CSV
+
+## Instalación
+
+1. Clonar el repo
 ```bash
+git clone [tu-repo-url]
 cd competitive-intel-api
+```
+
+2. Crear entorno virtual e instalar dependencias
+```bash
 python -m venv .venv
 .venv\Scripts\activate      # Windows
 # source .venv/bin/activate # macOS/Linux
@@ -16,124 +38,14 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
----
-
-## Uso
-
+3. Correr la app
 ```bash
-# Todas las plataformas, 25 direcciones CDMX
 python main.py
-
-# Solo Rappi (más rápido para probar)
-python main.py --platform rappi
-
-# Solo Rappi, primeras 3 direcciones, logs verbose
-python main.py --platform rappi --limit 3 --log-level DEBUG
-
-# Solo Uber Eats
-python main.py --platform ubereats --limit 5
 ```
 
-**Output:**
-- `data/raw/raw_<platform>_<timestamp>.csv` — todos los registros
-- `data/processed/intel_<platform>_<timestamp>.csv` — con `total_cost` calculado
+Los CSVs se generan automáticamente en `data/raw/` y `data/processed/`.
 
----
-
-## API Documentation
-
-### Rappi
-
-| Campo | Valor |
-|-------|-------|
-| Base URL | `https://services.rappi.com.mx` |
-| Auth | No requerida |
-| Rate limit | ~60-80 req/min |
-
-**Endpoints:**
-
-```
-GET /api/restaurants/prime/
-  Params: lat, lng, limit, offset
-  → Lista de restaurantes con deliveryTime, deliveryFee, promotions
-
-GET /api/restaurants/{store_id}/
-  → Menú completo (corridors > products con name, price)
-```
-
-**Headers obligatorios:**
-```
-User-Agent:       Rappi/9.1.0 (Android; SDK 31; arm64-v8a; samsung SM-S908B; es-MX)
-x-rappi-version:  9.1.0
-x-rappi-platform: android
-x-rappi-country:  mex
-```
-
----
-
-### Uber Eats
-
-| Campo | Valor |
-|-------|-------|
-| Base URL | `https://www.ubereats.com` |
-| Auth | CSRF token (de cookie/HTML en homepage) |
-| Rate limit | ~50-60 req/min |
-
-**Flujo de autenticación:**
-1. `GET https://www.ubereats.com/mx` → leer cookie `csrf_token` o variable JS `csrfToken`
-2. Usar el token en el header `x-csrf-token` de todos los POSTs
-
-**Endpoints:**
-```
-POST /api/getFeedV1
-  Body: {targetLocation: {latitude, longitude, reference, type},
-         pageInfo: {offset, pageSize}, query: "McDonald's"}
-  → feedItems[].store con uuid, etaRange, fareInfo, promotions
-
-POST /api/getStoreV1
-  Body: {storeUuid: "..."}
-  → sections[].items con title y price.amount (centavos)
-     fareInfo.deliveryFee.price.amount (centavos)
-     fareInfo.serviceFee.price.amount (centavos)
-```
-
-**Nota:** Los precios vienen en centavos. `amount / 100 = MXN`.
-
----
-
-### DiDi Food
-
-| Campo | Valor |
-|-------|-------|
-| Base URL | `https://food.didiglobal.com` |
-| Auth | No requerida |
-| Rate limit | ~40-50 req/min |
-
-**Endpoints:**
-```
-GET /api/v1/restaurant/nearby
-  Params: lat, lng, keyword, limit
-  → data.shops[] con shopId, name, deliveryTime, deliveryFee
-
-GET /api/v1/restaurant/{shop_id}/menu
-  → data.productList[] con name, price (puede ser centavos si >500)
-```
-
-**Headers obligatorios:**
-```
-User-Agent:    DiDiFood/5.0.32 (Android; SDK 31; arm64-v8a; es-MX)
-x-didi-client: food_android
-x-didi-country: MX
-```
-
-**Limitaciones:**
-- Cobertura menor fuera del centro de CDMX
-- No expone `service_fee` públicamente
-- Promociones a veces solo tienen porcentaje, sin descripción
-
----
-
-## Estructura del proyecto
+## Estructura del Proyecto
 
 ```
 competitive-intel-api/
@@ -156,35 +68,56 @@ competitive-intel-api/
 └── README.md
 ```
 
----
+## Cómo Funciona
+
+1. `main.py` carga las 25 direcciones de `config/addresses.json`
+2. Para cada dirección, llama al cliente de la plataforma seleccionada
+3. El cliente hace GET/POST al endpoint de búsqueda y obtiene la lista de restaurantes
+4. Por cada McDonald's encontrado, consulta el menú y extrae productos + precios
+5. Los resultados se guardan en `data/raw/` (registros crudos) y `data/processed/` (con `total_cost` calculado)
+
+## Plataformas Disponibles
+
+- `rappi` — consulta `/api/restaurants/prime/` y menús individuales; no requiere auth
+- `ubereats` — obtiene CSRF token automáticamente y consulta `getFeedV1` + `getStoreV1`
+- `didi` — consulta `/api/v1/restaurant/nearby` y menús; cobertura menor fuera del centro
 
 ## Resiliencia
 
-| Mecanismo | Configuración |
-|-----------|--------------|
-| Retry | 3 intentos con backoff exponencial (1.5s × 2^n) |
-| Rate limit | Delay mínimo por dominio (Rappi: 1.2s, UberEats: 1.5s, DiDi: 1.5s) |
-| Circuit breaker | Se abre tras 4 fallos consecutivos por plataforma |
-| Timeout | 20s total, 8s connect |
-| CSRF refresh | Uber Eats renueva automáticamente si recibe 403 |
+El sistema implementa cuatro mecanismos para manejar inestabilidad de las APIs:
 
----
+- **Retry:** 3 intentos con backoff exponencial (1.5s × 2ⁿ) ante errores 5xx o timeout
+- **Rate limit:** delay mínimo por dominio (Rappi: 1.2s, UberEats: 1.5s, DiDi: 1.5s)
+- **Circuit breaker:** se abre tras 4 fallos consecutivos por plataforma para evitar bloqueos
+- **CSRF refresh:** Uber Eats renueva el token automáticamente si recibe un 403
 
-## Output esperado
+## Limitaciones
 
-```
-14:32:01 | INFO    | ✓ rappi      | polanco_masaryk           | Big Mac              | $109.0
-14:32:03 | INFO    | ✓ rappi      | polanco_masaryk           | Coca-Cola 500ml      | $39.0
-14:32:05 | INFO    | ✗ rappi      | tepito                    | Combo Mediano        | —
-...
-Raw guardado: data/raw/raw_rappi_20240115_143201.csv (75 filas)
-```
-
----
-
-## Limitaciones conocidas
-
-- **Uber Eats** requiere CSRF token válido; expira en la sesión (se renueva automáticamente)
-- **DiDi Food** no cubre todas las zonas populares de CDMX
 - Los endpoints son reverse-engineered y pueden cambiar con actualizaciones de la app
-- Todas las plataformas requieren que McDonald's tenga cobertura activa en la dirección
+- DiDi Food no cubre todas las zonas de CDMX; cobertura reducida fuera del centro
+- Uber Eats requiere CSRF token válido por sesión (se renueva automáticamente, pero depende del HTML de la homepage)
+- Todas las plataformas requieren que McDonald's tenga cobertura activa en la dirección consultada
+
+## Output Esperado
+
+```
+14:32:01 | INFO | ✓ rappi     | polanco_masaryk  | Big Mac         | $109.0
+14:32:03 | INFO | ✓ rappi     | polanco_masaryk  | Coca-Cola 500ml | $39.0
+14:32:05 | INFO | ✗ rappi     | tepito           | Combo Mediano   | —
+...
+Raw guardado:       data/raw/raw_rappi_20240115_143201.csv       (75 filas)
+Processed guardado: data/processed/intel_rappi_20240115_143201.csv (75 filas)
+```
+
+## Next Steps
+
+Si tuviera más tiempo:
+- Deployment en Railway/Render con scheduler para correr diario
+- Conexión a DB real (Postgres) en vez de CSVs
+- Dashboard de comparación de precios entre plataformas
+- Alertas automáticas cuando una plataforma baja precios >5%
+- Soporte para más ciudades y más cadenas de comida rápida
+
+## Autor
+
+Fernando Rivera
