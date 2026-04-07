@@ -18,3 +18,5 @@ python main.py --platform ubereats --limit 5
 ```
 
 Output en `data/raw/` y `data/processed/`.
+
+Fernando Rivera
